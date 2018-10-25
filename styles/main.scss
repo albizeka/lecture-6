@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+
+$mainColor: #e74c3c;
+$silverColor: #bdc3c7;
+$tabletBreakpoint: 768px;
+
+@import 'header';
+
+#page__container {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.main__container {
+  width: 100%;
+  height: auto;
+
+  .company__image {
+    width: 100%;
+    height: 70vh;
+    background-image: url('../img/building.jpg');
+    background-size: cover;
+    background-position: center;
+
+    @media (max-width: $tabletBreakpoint) {
+      height: 60vh;
+    }
+  }
+
+  .clients__container {
+    width: 100%;
+    height: auto;
+    float: left;
+
+    .client__logo {
+      box-sizing: border-box;
+      padding: 5px 5px;
+      display: flex;
+      flex-wrap: wrap;
+
+      .logo {
+        width: 20%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        @media (max-width: $tabletBreakpoint) {
+          width: 33.3%;
+        }
+
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+
+  .company__info {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: $silverColor;
+
+    .text__holder {
+      width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+
+      @media (max-width: $tabletBreakpoint) {
+        width: 100%;
+        box-sizing: border-box;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+    }
+  }
+}
