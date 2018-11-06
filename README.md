@@ -15,3 +15,4 @@ Add a footer with some texts
 * [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - Tutorial about flexbox
 * [Sass](https://sass-lang.com/guide) - SASS basic guide and how to use and install it
 * [Less](http://lesscss.org/) - LESS basic guide and how to use and install it
+* [Eloquent Javascript](https://eloquentjavascript.net/) - Learn basics and advanced javascript
